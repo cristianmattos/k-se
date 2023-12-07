@@ -1,0 +1,10 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1540px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+

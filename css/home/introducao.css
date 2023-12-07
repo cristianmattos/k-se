@@ -1,0 +1,24 @@
+
+.introducao-bg{ 
+  height: max(600px);
+  background-image: url('/img/queijo.jpg');
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  display: grid;
+}
+.introducao{
+display: grid;
+grid-template-columns: repeat(12, 1fr);
+
+}
+
+.introducao-conteudo {
+  grid-column: 2;
+  align-self: center;
+  
+}
+
+.introducao-conteudo h1{
+  font-size: 54px;
+}
